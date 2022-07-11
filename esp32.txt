@@ -1,0 +1,17 @@
+
+Note :These steps working in arduino IDE 1.8.19 . Make sure that you are at version 1.8 or higher,
+
+1- instal Arduino IDE 
+2- in Arduino IDE , go to File -> Prefrences
+3- You should be on the Settings tab in the Preferences dialog box by default.
+4- in Additonal Boards Manager URLs, put this link "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json" then press ok  
+5- go to Tools -> Boards Manager 
+6- in search panle, write "esp32" and click on "Install" 
+7- After completing the install, click Close.
+8- Scroll down to the Board: entry (i.e. Board: Arduino/Genuino Uno).
+9- A submenu will open when you highlight the Board: entry.
+10-  At the top of the submenu is Boards Manager. Click on it to open the Boards Manager dialog box.
+11- In the search box in the Boards Manager enter “esp32”.
+12- You should see an entry for “esp32 by Espressif Systems”. Highlight this entry and click on the Install button.
+13-  This will install the ESP32 boards into your Arduino IDE
+
